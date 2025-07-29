@@ -1,0 +1,9 @@
+{
+	"name": "DataFactoryofgautam",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "79df9218-3082-4cdc-8587-128a5387dc07",
+		"tenantId": "abe3f064-c98b-49fb-87f8-6b45986d3551"
+	}
+}

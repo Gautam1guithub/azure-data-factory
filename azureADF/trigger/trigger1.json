@@ -1,0 +1,17 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/trigggercontainer/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/53625840-b716-4df9-a44f-aa281a1319e1/resourceGroups/storageRegeX/providers/Microsoft.Storage/storageAccounts/regexdatatxt",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
